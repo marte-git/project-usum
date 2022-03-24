@@ -1,4 +1,7 @@
 /* array e indirizzi (e il bello deve ancora venire ...) */
+
+/* aggiunta di un commento *********************************************/
+
 #include <stdio.h>
 #define N 8
 
