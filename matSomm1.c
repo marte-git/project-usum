@@ -1,4 +1,4 @@
-/* somma di dueMILA matrici in una terza, con relative stampe
+/* somma di due matrici in una terza, con relative stampe
  */
 
 #include <stdio.h>
@@ -11,8 +11,12 @@
 rappresentata come un array bidimensionale di interi di dimensione NxM, 
 e lo riempie con i dati letti da input */
 void leggiMatrice(int m[N][M]) {
-  int i, j;
-char *l;
+  int i, j, 
+      m, l, p, q;      /****************/
+
+  char *l;
+
+  m = l = p = q = 100; /*************/
 
 l = (char *)malloc(12);
 l = (char *) malloc(12);
